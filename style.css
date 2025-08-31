@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kaushan+Script&display=swap');
+
+body {
+    font-family: "EB Garamond", serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00AF64;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    width: 10%;
+}
+
+h1 {
+    font-family: "Kaushan Script", cursive;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nava {
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+footer {
+    background-color: #00AF64;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logof {
+    display: flex;
+    align-items: center;
+}
+
+.logofimg {
+    width: 10%;
+}
+
+h6 {
+    font-family: "EB Garamond", serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+main {
+    background-color: #ffffff;
+    height: 1400px;
+    padding: 20px 10px 15px 20px;
+}
+
+.show {
+    background-color: #007241;
+    height: 50%;
+    margin: 20px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.persent {
+    background-color: #007241;
+    height: 20%;
+    margin: 20px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: "EB Garamond", serif;
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+}
+
+h3 {
+    font-family: "EB Garamond", serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+button {
+    background-color: antiquewhite;
+    width: 120px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+
+.rooms {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #218359;
+    height: 75%;
+    width: 90%;
+}
+
+.one {
+    background-image: url(Images/Rectangle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 95%;
+    width: 30%;
+}
+
+.two {
+    background-image: url(Images/XXL_height.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 95%;
+    width: 30%;
+}
+
+.three {
+    background-image: url(Images/Villa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 95%;
+    width: 30%;
+}
+
+.roominfo {
+    background-color: #000000a1;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sugg {
+    background-color: #007241;
+    height: 25%;
+    margin: 20px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    height: 80%;
+    width: 97%;
+    background-color:#218359;
+}

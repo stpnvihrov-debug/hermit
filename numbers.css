@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kaushan+Script&display=swap');
+
+body {
+    font-family: "EB Garamond", serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00AF64;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    width: 10%;
+}
+
+h1 {
+    font-family: "Kaushan Script", cursive;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nava {
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+footer {
+    background-color: #00AF64;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logof {
+    display: flex;
+    align-items: center;
+}
+
+.logofimg {
+    width: 10%;
+}
+
+h6 {
+    font-family: "EB Garamond", serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: "EB Garamond", serif;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+p {
+    font-family: "EB Garamond", serif;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+main {
+    background-color: #ffffff;
+    height: 1800px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.econom {
+    background-color: #007241;
+    height: 75vh;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.roomsone {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #218359;
+    height: 60vh;
+    width: 90%;
+}
+
+.one {
+    background-image: url(Images/Eco1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 50vh;
+    width: 30%;
+}
+
+.two {
+    background-image: url(Images/Eco2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 50vh;
+    width: 30%;
+}
+
+.three {
+    background-image: url(Images/Eco3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 50vh;
+    width: 30%;
+}
+
+.lux {
+    background-color: #007241;
+    height: 70%;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.onel {
+    background-image: url(Images/XXL_height.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 95%;
+    width: 30%;
+}
+
+.twol {
+    background-image: url(Images/Rectangle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 60vh;
+    width: 30%;
+}
+
+.threel {
+    background-image: url(Images/Villa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 60vh;
+    width: 30%;
+}
+
+.roominfo {
+    background-color: #000000a1;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
